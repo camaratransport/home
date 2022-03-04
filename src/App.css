@@ -1,5 +1,9 @@
-.App {
+html {
 	text-align: center;
+  background-image: url("../public/imgs/space.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 /* May be useful for logo animation
