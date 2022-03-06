@@ -14,12 +14,22 @@ body {
 
 .logo {
 	margin-top: 10em;
+	animation: slideIn 2s ease-out;
 }
 
 #title {
 	font-family: spaceFont;
 	font-size: 3em;
 	margin: 0;
+}
+
+@keyframes slideIn {
+	0% {
+		transform: translateX(-200%);
+	}
+	100% {
+		transform: translateX(0%);
+	}
 }
 
 #logo-img {
