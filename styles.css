@@ -46,3 +46,7 @@ body {
 #logo-img:hover {
 	transform: perspective(1000px) rotateY(180deg);
 }
+
+hr {
+	width: 17em;
+}
