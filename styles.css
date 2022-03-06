@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+	background-image: url(images/space.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	color: white;
+}
+
+@font-face {
+	font-family: spaceFont;
+	src: url(fonts/nasalization-rg.otf);
+}
+
+.logo {
+	margin-top: 10em;
+}
+
+#title {
+	font-family: spaceFont;
+	font-size: 3em;
+	margin: 0;
+}
+
+#logo-img {
+	transition: 2s;
+	backface-visibility: visible;
+	transform: perspective(1000px) rotateY(0deg);
+	width: 250px;
+	height: 100px;
+	object-fit: cover; /* Used to crop the image of all that transparent space */
+	filter: invert(100%) sepia(0%) saturate(5957%) hue-rotate(337deg)
+		brightness(101%) contrast(100%);
+}
+
+#logo-img:hover {
+	transform: perspective(1000px) rotateY(180deg);
+}
