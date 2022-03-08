@@ -36,7 +36,7 @@ body {
 .logo {
 	size: 0;
 	margin-top: 10em;
-	animation: slideIn 2s ease-out;
+	animation: slideIn 1.8s ease-out;
 }
 
 @keyframes slideIn {
