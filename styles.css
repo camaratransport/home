@@ -92,3 +92,11 @@ hr {
 footer div {
 	margin: 1em;
 }
+
+a {
+	color: white
+}
+
+a:hover {
+	color: blue;
+}
