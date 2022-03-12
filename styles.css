@@ -35,7 +35,7 @@ body {
 
 .logo {
 	margin-top: 10em;
-	animation: slideIn 1.8s ease-out;
+	animation: slideIn 3s ease-out;
 }
 
 @keyframes slideIn {
@@ -54,7 +54,9 @@ body {
 }
 
 hr {
-	width: 20em;
+	width: 28em;
+	height: 2px;
+	background-color: white;
 	margin-bottom: 1em;
 }
 
