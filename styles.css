@@ -36,7 +36,6 @@ body {
 .logo {
 	margin-top: 10em;
 	animation: slideIn 3s ease-out;
-	padding: 1em;
 }
 
 @keyframes slideIn {
